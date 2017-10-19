@@ -1,7 +1,7 @@
 @import url(http://fonts.font.im/css?family=Lato);
 *, html, body {
   height: 100%;
-  font-family: 'Lato',sans-serif; }
+  font-family: 'Lato', sans-serif; }
 
 body {
   overflow: hidden; }
@@ -97,4 +97,7 @@ body {
     perspective: 100em; } }
 @media screen and (max-device-width: 400px) {
   .fine_box {
-    margin-top: 200px; } }
+    margin-top: 500px; }
+
+  .cube {
+    top: 20%; } }
