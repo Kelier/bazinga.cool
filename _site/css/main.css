@@ -95,11 +95,6 @@ body {
 @keyframes view {
   to {
     perspective: 100em; } }
-@keyframes bear {
-  0% {
-    transform: rotateX(-35deg) rotateY(15deg) rotateZ(0deg); }
-  100% {
-    transform: rotateX(-35deg) rotateY(15deg) rotateZ(-5deg); } }
-@media screen and (min-width: 600px) {
+@media screen and (max-device-width: 400px) {
   .fine_box {
     margin-top: 200px; } }
